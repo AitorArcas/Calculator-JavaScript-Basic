@@ -55,16 +55,6 @@ body{
     color: #fff;
     cursor: pointer;
     z-index: 1;
-    &::before{
-        content: '';
-        height: 30px;
-        width: 30px;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 50%;
-        background-color: #333;
-        z-index: -1;
-    }
 }
 .toggler-icon {
     color: #9567ff;
